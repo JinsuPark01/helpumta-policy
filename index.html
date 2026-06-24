@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>헬품타 계정 삭제 안내</title>
+<style>
+  :root {
+    --orange: #FD6F22;
+    --orange-dark: #C85416;
+    --beige-bg: #FAF5EC;
+    --card: #FFFFFF;
+    --text: #3D3325;
+    --text-soft: #6B5D4A;
+    --border: #ECE3D4;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+                 "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+    background: var(--beige-bg);
+    color: var(--text);
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+    padding: 24px;
+  }
+
+  .wrap {
+    max-width: 640px;
+    margin: 0 auto;
+  }
+
+  header {
+    text-align: center;
+    padding: 48px 0 40px;
+  }
+
+  .logo {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 64px;
+    height: 64px;
+    border-radius: 18px;
+    background: var(--orange);
+    color: #fff;
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 16px;
+  }
+
+  header h1 {
+    font-size: 26px;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+  }
+
+  header .app {
+    color: var(--orange-dark);
+  }
+
+  header p {
+    color: var(--text-soft);
+    font-size: 15px;
+    margin-top: 8px;
+  }
+
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 28px;
+    margin-bottom: 20px;
+  }
+
+  .card h2 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 14px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .num {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 26px;
+    height: 26px;
+    border-radius: 8px;
+    background: var(--orange);
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    flex-shrink: 0;
+  }
+
+  .card p { color: var(--text-soft); font-size: 15px; }
+  .card p + p { margin-top: 10px; }
+
+  .steps {
+    list-style: none;
+    counter-reset: step;
+    margin-top: 6px;
+  }
+  .steps li {
+    position: relative;
+    padding-left: 26px;
+    color: var(--text-soft);
+    font-size: 15px;
+    margin-top: 8px;
+  }
+  .steps li::before {
+    content: "→";
+    position: absolute;
+    left: 0;
+    color: var(--orange);
+    font-weight: 700;
+  }
+
+  .mail {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 12px 18px;
+    background: var(--orange);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 15px;
+  }
+  .mail:hover { background: var(--orange-dark); }
+
+  .data-list { list-style: none; margin-top: 6px; }
+  .data-list li {
+    position: relative;
+    padding-left: 22px;
+    color: var(--text-soft);
+    font-size: 15px;
+    margin-top: 8px;
+  }
+  .data-list li::before {
+    content: "•";
+    position: absolute;
+    left: 4px;
+    color: var(--orange);
+    font-weight: 700;
+  }
+
+  .note {
+    font-size: 14px;
+    color: var(--text-soft);
+    background: var(--beige-bg);
+    border-radius: 10px;
+    padding: 14px 16px;
+    margin-top: 14px;
+  }
+
+  footer {
+    text-align: center;
+    color: var(--text-soft);
+    font-size: 13px;
+    padding: 24px 0 40px;
+  }
+
+  strong { color: var(--text); font-weight: 600; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+
+    <header>
+      <div class="logo">헬</div>
+      <h1><span class="app">헬품타</span> 계정 삭제 안내</h1>
+      <p>계정과 관련된 데이터를 삭제하는 방법을 안내합니다.</p>
+    </header>
+
+    <!-- 1. 앱 내 삭제 -->
+    <div class="card">
+      <h2><span class="num">1</span> 앱에서 직접 삭제</h2>
+      <p>헬품타 앱을 사용 중이라면 앱 안에서 바로 계정을 삭제할 수 있습니다.</p>
+      <ul class="steps">
+        <li>앱 실행 후 <strong>마이페이지</strong> 이동</li>
+        <li><strong>계정 삭제</strong> 선택</li>
+        <li>본인 확인(재인증) 후 삭제 완료</li>
+      </ul>
+    </div>
+
+    <!-- 2. 이메일 요청 -->
+    <div class="card">
+      <h2><span class="num">2</span> 이메일로 삭제 요청</h2>
+      <p>앱을 이미 삭제했거나 사용할 수 없는 경우, 아래 이메일로 삭제를 요청해 주세요.</p>
+      <p>요청 시 <strong>가입에 사용한 이메일 주소</strong>를 함께 적어주시면 본인 확인 후 처리해 드립니다.</p>
+      <a class="mail" href="mailto:gary8438@gmail.com?subject=헬품타 계정 삭제 요청">gary8438@gmail.com 로 요청</a>
+      <div class="note">요청을 받은 날로부터 <strong>30일 이내</strong>에 계정과 관련 데이터를 삭제합니다.</div>
+    </div>
+
+    <!-- 3. 삭제되는 데이터 -->
+    <div class="card">
+      <h2><span class="num">3</span> 삭제되는 데이터</h2>
+      <p>계정을 삭제하면 아래 데이터가 모두 삭제되며, 복구할 수 없습니다.</p>
+      <ul class="data-list">
+        <li>계정 정보 (이메일, 닉네임 등 인증 정보)</li>
+        <li>작성한 모든 운동 기록 (종목·시간·소감)</li>
+        <li>업로드한 모든 인증샷 이미지</li>
+        <li>참여 중인 그룹의 멤버 정보 (그룹에서 자동 탈퇴)</li>
+      </ul>
+      <div class="note">본인이 마지막 멤버인 그룹은 그룹 자체가 함께 삭제됩니다. 다른 멤버가 남아 있는 그룹은 유지되며, 본인 기록만 삭제됩니다.</div>
+    </div>
+
+    <footer>
+      헬품타 (Helpumta) · 운동 기록 공유 앱
+    </footer>
+
+  </div>
+</body>
+</html>
