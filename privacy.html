@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>헬품타 개인정보처리방침</title>
+<style>
+  :root {
+    --orange: #FD6F22;
+    --orange-dark: #C85416;
+    --beige-bg: #FAF5EC;
+    --card: #FFFFFF;
+    --text: #3D3325;
+    --text-soft: #6B5D4A;
+    --border: #ECE3D4;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+                 "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+    background: var(--beige-bg);
+    color: var(--text);
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+    padding: 24px;
+  }
+
+  .wrap { max-width: 640px; margin: 0 auto; }
+
+  header {
+    text-align: center;
+    padding: 48px 0 32px;
+  }
+
+  .logo {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 64px;
+    height: 64px;
+    border-radius: 18px;
+    background: var(--orange);
+    color: #fff;
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 16px;
+  }
+
+  header h1 {
+    font-size: 26px;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+  }
+  header .app { color: var(--orange-dark); }
+  header p {
+    color: var(--text-soft);
+    font-size: 14px;
+    margin-top: 8px;
+  }
+
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 28px;
+    margin-bottom: 20px;
+  }
+
+  .card h2 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 14px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .num {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 26px;
+    height: 26px;
+    border-radius: 8px;
+    background: var(--orange);
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    flex-shrink: 0;
+  }
+
+  .card p { color: var(--text-soft); font-size: 15px; }
+  .card p + p { margin-top: 10px; }
+
+  .list { list-style: none; margin-top: 6px; }
+  .list li {
+    position: relative;
+    padding-left: 22px;
+    color: var(--text-soft);
+    font-size: 15px;
+    margin-top: 8px;
+  }
+  .list li::before {
+    content: "•";
+    position: absolute;
+    left: 4px;
+    color: var(--orange);
+    font-weight: 700;
+  }
+
+  .note {
+    font-size: 14px;
+    color: var(--text-soft);
+    background: var(--beige-bg);
+    border-radius: 10px;
+    padding: 14px 16px;
+    margin-top: 14px;
+  }
+
+  a.link { color: var(--orange-dark); font-weight: 600; }
+
+  footer {
+    text-align: center;
+    color: var(--text-soft);
+    font-size: 13px;
+    padding: 24px 0 40px;
+  }
+
+  strong { color: var(--text); font-weight: 600; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+
+    <header>
+      <div class="logo">헬</div>
+      <h1><span class="app">헬품타</span> 개인정보처리방침</h1>
+      <p>시행일: 2025년 6월</p>
+    </header>
+
+    <div class="card">
+      <p>헬품타(이하 "앱")는 이용자의 개인정보를 중요하게 생각하며, 아래와 같이 수집·이용·보관합니다. 본 방침은 앱 이용 시 적용됩니다.</p>
+    </div>
+
+    <!-- 1. 수집 항목 -->
+    <div class="card">
+      <h2><span class="num">1</span> 수집하는 정보</h2>
+      <p>앱은 서비스 제공을 위해 아래 정보를 수집합니다.</p>
+      <ul class="list">
+        <li><strong>계정 정보</strong> — 이메일 주소, 닉네임 (회원가입 시)</li>
+        <li><strong>운동 기록</strong> — 운동 종목, 운동 시간, 한줄 소감</li>
+        <li><strong>이미지</strong> — 이용자가 직접 업로드한 운동 인증샷 및 그룹 대표 이미지</li>
+      </ul>
+      <div class="note">별도의 위치 정보, 연락처, 기기 식별자 등은 수집하지 않습니다.</div>
+    </div>
+
+    <!-- 2. 이용 목적 -->
+    <div class="card">
+      <h2><span class="num">2</span> 정보의 이용 목적</h2>
+      <ul class="list">
+        <li>회원 식별 및 로그인</li>
+        <li>그룹 단위 운동 기록 공유</li>
+        <li>선택한 날짜의 기록을 이미지로 추출하는 기능 제공</li>
+      </ul>
+    </div>
+
+    <!-- 3. 보관 및 처리 -->
+    <div class="card">
+      <h2><span class="num">3</span> 정보의 보관 및 처리</h2>
+      <p>수집된 정보는 Google Firebase(Authentication · Firestore · Storage)에 안전하게 저장되며, 서비스 제공 목적 외로 사용되지 않습니다.</p>
+      <p>이용자의 정보는 제3자에게 판매하거나 광고 목적으로 제공하지 않습니다.</p>
+    </div>
+
+    <!-- 4. 보유 기간 및 삭제 -->
+    <div class="card">
+      <h2><span class="num">4</span> 보유 기간 및 삭제</h2>
+      <p>수집된 정보는 회원 탈퇴 시 지체 없이 삭제됩니다. 이용자는 언제든지 계정과 관련 데이터의 삭제를 요청할 수 있습니다.</p>
+      <p>계정 삭제 방법은 <a class="link" href="https://jinsupark01.github.io/helpumta-policy/">계정 삭제 안내 페이지</a>를 참고해 주세요.</p>
+    </div>
+
+    <!-- 5. 문의 -->
+    <div class="card">
+      <h2><span class="num">5</span> 문의</h2>
+      <p>개인정보 처리에 관한 문의는 아래로 연락해 주세요.</p>
+      <p><a class="link" href="mailto:gary8438@gmail.com">gary8438@gmail.com</a></p>
+    </div>
+
+    <footer>
+      헬품타 (Helpumta) · 운동 기록 공유 앱
+    </footer>
+
+  </div>
+</body>
+</html>
